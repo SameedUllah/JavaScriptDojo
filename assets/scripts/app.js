@@ -3,12 +3,12 @@ let currentResult = defaultReslut;
 currentResult = currentResult + 10 * 3;
 
 function add(num1,num2) {
-   const result = num1+num1;
+   const result = num1+num2;
     return result;
 }
 
-add(1,2);
-add(5,5);
+currentResult = (1,2);
+
 let calculationDiscription = ""+ defaultReslut +" + 10 * 3";
 /* <<<<<<<  this only works with "`" backticks not single or double quotes and this syntax is called Template literals (Template strings) >>>>>>>
  let calculationDiscription = `${defaultReslut} + 10 * 3`;
