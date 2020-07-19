@@ -10,6 +10,7 @@ function add(num1,num2) {
 currentResult = (1,2);
 currentResult = (1,2);
 currentResult = (1,2);
+currentResult = (1,2);
 
 
 let calculationDiscription = ""+ defaultReslut +" + 10 * 3";
