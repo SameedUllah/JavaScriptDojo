@@ -1,4 +1,6 @@
 let currentResult = 0;
 currentResult = currentResult + 10 * 3;
 
-outputResult(currentResult,'');
+let calculationDiscription = "0 + 10 * 3"
+
+outputResult(currentResult,calculationDiscription);
