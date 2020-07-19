@@ -2,8 +2,9 @@ const defaultReslut = 0;
 let currentResult = defaultReslut;
 currentResult = currentResult + 10 * 3;
 
-function(num1,num2) {
+function add(num1,num2) {
    const result = num1+num1;
+   alert("The result is " + result);
 }
 
 let calculationDiscription = ""+ defaultReslut +" + 10 * 3";
