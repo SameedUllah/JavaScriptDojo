@@ -8,6 +8,8 @@ function add(num1,num2) {
 }
 
 currentResult = (1,2);
+const additionResult = add(2,4);
+currentResult = additionResult; 
 
 
 
