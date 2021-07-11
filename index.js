@@ -1,3 +1,20 @@
+// CLASSS
+// class Person {
+// constructor(firstName, lastName, dob) {
+// this.firstName = firstName;
+// this.lastName = lastName;
+// this.dob = new Date(dob);
+// }
+// getBirthYear() {
+// return this.dob.getFullYear();
+// }
+//
+// getFullName() {
+// return `${this.firstName} ${this.lastName}`;
+// }
+// }
+// --------------------------------------------------------------------
+
 // Constructor function
 // function Person(firstName, lastName, dob) {
 //   this.firstName = firstName;
@@ -8,11 +25,12 @@
 // Person.prototype.getBirthYear = () => this.dob.getFullYear();
 // Person.prototype.getFullName = () => `${this.firstName} ${this.lastName}`;
 
-// // Initiate object
+// Initiate object
 // const person1 = new Person("john", "Doe", "1998");
-// const person2 = new Person("mary", "Doe", "0000");
+// const person2 = new Person("mary", "Doe", "2022");
 
 // console.log(person1.getFullName());
+// console.log(person2.getBirthYear());
 
 // function addNums(num1 = 1, num2 = 2) {
 //   console.log(num1 + num2);
@@ -74,23 +92,23 @@
 
 // console.log(city);
 
-const todos = [
-  {
-    id: 1,
-    text: "take out trash",
-    isCompleted: true,
-  },
-  {
-    id: 2,
-    text: "meeting",
-    isCompleted: false,
-  },
-  {
-    id: 3,
-    text: "eating",
-    isCompleted: true,
-  },
-];
+// const todos = [
+//   {
+//     id: 1,
+//     text: "take out trash",
+//     isCompleted: true,
+//   },
+//   {
+//     id: 2,
+//     text: "meeting",
+//     isCompleted: false,
+//   },
+//   {
+//     id: 3,
+//     text: "eating",
+//     isCompleted: true,
+//   },
+// ];
 
 // for (todo of todos) {
 //   console.log(todo);
